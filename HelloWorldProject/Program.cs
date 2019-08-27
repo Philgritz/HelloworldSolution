@@ -56,7 +56,7 @@ namespace HelloWorldProject
             Console.WriteLine("Average is " + avg);
             #endregion 
 
-            var scores = new int[] { 738, 609, 307, 959, 805, 689, 402, 972, 359, 140 };
+            
             //assignment compute the average
 
                 // looping with foreach()
@@ -65,7 +65,7 @@ namespace HelloWorldProject
             foreach(var score in scores) {
                 grandTotal += score;
             }
-
+            Console.WriteLine("GrandTotal is " + grandTotal);
 
         }
     }
